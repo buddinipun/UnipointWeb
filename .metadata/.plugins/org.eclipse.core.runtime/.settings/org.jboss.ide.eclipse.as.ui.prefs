@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.jboss.ide.eclipse.as.ui.defaultWebServer=jboss-eap
+org.jboss.ide.eclipse.as.ui.preferences.disabled.automatic.server.view=true
+org.jboss.ide.eclipse.as.ui.preferences.enabledDecorators.1=true
+org.jboss.ide.eclipse.as.ui.wizards.LAST_RUNTIME_CREATED=jboss-eap Runtime
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=jboss-eap

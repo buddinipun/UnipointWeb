@@ -226,9 +226,8 @@
           <ul class="submenu">
           <li><a href="<%=request.getContextPath()%>/Organization">Add Organization</a></li>
           <li><a href="<%=request.getContextPath()%>/Outlet">Define Outlet</a></li>
-            <li><a href="<%=request.getContextPath()%>/Schema">Define Schema</a></li>
-            
-          </ul>
+            <li><a href="<%=request.getContextPath()%>/Schema">Define Loyalty Levels</a></li>
+           </ul>
         </li>
         
         <li class="has-submenu">

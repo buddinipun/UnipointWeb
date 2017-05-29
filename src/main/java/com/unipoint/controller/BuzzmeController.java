@@ -1,5 +1,6 @@
 package com.unipoint.controller;
 
+import java.util.List;
 import java.util.Map;
 
 import org.omg.CORBA.Request;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+
 import com.unipoint.model.BuzzedMe;
 import com.unipoint.service.BuzzedMeServices;
 
@@ -24,7 +26,6 @@ public class BuzzmeController {
 	public String init(Map<String, Object> map){
 		
 		map.put("buzzedmes", buzzedMeServices.getAllBuzzedMe());
-		
 		map.put("buzzedme", new BuzzedMe());
 		
 		return "buzzMe_users";

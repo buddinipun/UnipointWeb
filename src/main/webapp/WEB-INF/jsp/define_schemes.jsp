@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ include file="/WEB-INF/jsp/includes.jsp"%>
 <!-- APP MAIN ==========-->
 <main id="app-main" class="app-main">
@@ -8,17 +7,11 @@
 	<section class="app-content">
 
 		<div class="widget-header">
-			<h2 class="widget-title">Define Loyality Schemes</h2>
+			<h2 class="widget-title">Define Loyalty Levels</h2>
 		</div>
-		<!-- END PAGE TITLE -->
-
-		<!-- PAGE CONTENT WRAPPER -->
-
-
+		
 		<div class="gallery row">
-
-
-			<c:forEach var="LoyaltySchemas" items="${LoyaltySchemas}">
+		<c:forEach var="LoyaltySchemas" items="${LoyaltySchemas}">
 				<div class="col-md-3">
 
 					<div class="gallery-item">
@@ -27,9 +20,7 @@
 							<div class="panel-body profile"
 								style="padding: 0px; overflow: hidden;">
 
-								<img
-									src="<%=request.getContextPath()%>/${LoyaltySchemas.imageUrl}"
-									width="100%" alt="dw">
+								<img src="<%=request.getContextPath()%>/${LoyaltySchemas.imageUrl}" width="100%" alt="dw">
 
 							</div>
 							<div class="panel-body">
@@ -40,18 +31,16 @@
 										${LoyaltySchemas.demotingTimePeriod}<br>
 										${LoyaltySchemas.minimumPurchaseAmount}
 
-									</p>
 								</div>
-								<form:form action="schema.define" method="POST"
-									commandName="LoyaltyScheme" enctype="multipart/form-data">
+								<form:form action="schema.define" method="POST" commandName="LoyaltyScheme">
 									<form:hidden path="schemeId" value="${LoyaltySchemas.schemeId}" id="schemeId" />
 									<button type="button" class="btn btn-primary"
 										style="width: 49%; margin-top: 10px;" data-toggle="modal"
 										data-target="#editcard">Edit Card</button>
-									<input type="submit" name="action" value="Delete"
+									<input type="submit" name="action" value="delete" class="btn btn-primary"
 										style="width: 49%; margin-top: 10px;" data-toggle="modal"
 										 onclick="return confirm('Are you sure you want to delete this?')">Delete Card</button>
-							</div>
+							
 							</form:form>
 						</div>
 						<!-- END CONTACT ITEM -->

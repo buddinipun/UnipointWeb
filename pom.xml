@@ -39,7 +39,7 @@
     </plugins>
   </build>
   <properties>
-		<org.springframework.version>3.1.1.RELEASE</org.springframework.version>
+		<org.springframework.version>4.3.8.RELEASE</org.springframework.version>
 		<servletapi.version>3.1.0</servletapi.version>
 	</properties>
 	<dependencies>
@@ -53,6 +53,11 @@
 			<artifactId>spring-beans</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
+		<dependency>
+    <groupId>com.squareup.okhttp</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>2.7.5</version>
+</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -100,6 +105,22 @@
 			<artifactId>hibernate-annotations</artifactId>
 			<version>3.3.1.GA</version>
 		</dependency>
+		
+<dependency>
+    <groupId>com.google.zxing</groupId>
+    <artifactId>javase</artifactId>
+    <version>3.3.0</version>
+</dependency>
+		<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-messaging</artifactId>
+    <version>4.0.0.RELEASE</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-websocket</artifactId>
+    <version>4.0.0.RELEASE</version>
+</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>

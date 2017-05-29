@@ -47,6 +47,7 @@ public class DefineSchemeController {
 			
 			break;
 		case "delete":
+			System.out.println("sucess");
 			schemaservices.deleteSchema(loyaltyScheme);
 			break;
 		case "search":

@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime PROPERTY_EXEC_ENVIRONMENT\="JavaSE-1.6" id\="jboss-eap Runtime" location\="C\:/Users/BuddhiNipun/jbdevstudio/runtimes/jboss-eap" name\="jboss-eap Runtime" org.jboss.ide.eclipse.as.core.runtime.configurationName\="" runtime-type-id\="org.jboss.ide.eclipse.as.runtime.eap.61" timestamp\="0"/>\r\n</runtimes>\r\n

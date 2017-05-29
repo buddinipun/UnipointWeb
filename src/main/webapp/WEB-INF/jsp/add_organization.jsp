@@ -26,7 +26,7 @@ width: 1px;
 							<div class="form-group">
 								<label for="exampleInputEmail1">Organization Name</label>
 								
-								<form:input type="text" path="organizationName" class="form-control" placeholder="Email"/>
+								<form:input type="text" path="organizationName" class="form-control" placeholder="Organization"/>
 							</div>
 							
 							

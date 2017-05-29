@@ -64,7 +64,7 @@
               xAxis : [
                 {
                   type : 'category',
-                  data : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                  data : ['13-17','18-24','25-34','35-44','45-54','55-64','65+']
                 }
               ],
               yAxis : [
@@ -113,6 +113,18 @@
       </div><!-- END column -->
 </div><!-- END row -->
   </section><!-- .app-content -->
+  <div class="col-md-12">
+				<div class="widget p-lg">
+					<h4 class="m-b-lg">Overall status of both Male and Female Customer</h4>
+					
+					<table class="table table-hover">
+						<tr><th>Outlet name</th><th>Location</th><th>Count</th><th>13-17</th><th>18-24</th><th>255-34</th><th>45-54</th><th>55-64</th><th>64+</th><th>Count</th></tr>
+						
+					</table>
+				</div><!-- .widget -->
+			</div><!-- END column -->
 </div><!-- .wrap -->
 </main>
+
+
   <%@include file="../../resources/include/footer.jsp" %>

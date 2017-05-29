@@ -112,7 +112,7 @@
                                     </tr>
 							<tbody>
 
-								<c:forEach var="merchant" items="${merchants}">
+								<c:forEach var="merchant" items="${merchants}">6
 
                                         <tr>
                                             <td>${merchant.merchantName}</td>
